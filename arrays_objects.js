@@ -24,3 +24,19 @@ var donut = {
   count : 12
 }
 
+function addition(parameter) {
+  console.log(parameter[1] + parameter[6])
+}
+
+addition(numbers)
+
+
+
+function stuff (toppings) {
+  for (var i = 0;i < toppings.length ; i++) {
+  console.log("This has " + i + " , yay!");
+  }
+}
+
+stuff(numbers);
+
